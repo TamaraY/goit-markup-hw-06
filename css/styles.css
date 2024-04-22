@@ -1016,104 +1016,107 @@ img {
         ),
         url(../images/hero-bg-tab-2x.jpg);
     }
+  }
 
-    .hero-title {
-      font-weight: 700;
-      font-size: 56px;
-      line-height: 1.07;
-      letter-spacing: 0.02em;
-      text-align: center;
-      color: #fff;
-      max-width: 496px;
-      margin: 0 auto;
-      margin-bottom: 36px;
-    }
+  .mob-menu {
+    display: none;
+  }
+  .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+  }
 
-    /* ---------------  HEADER --------------- */
-    .header-container {
-      display: flex;
-      align-items: center;
-    }
+  /* ---------------  HEADER --------------- */
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
 
-    .header-menu-list {
-      display: flex;
-      gap: 40px;
-      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+  .header-menu-list {
+    display: flex;
+    gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-    .header-address {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+  .header-address {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-    .header-logo {
-      font-family: "Raleway", sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #4d5ae5;
-      margin-right: 120px;
-    }
+  .header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 120px;
+  }
 
-    .header-address-link {
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 1.17;
-      letter-spacing: 0.04em;
+  .header-address-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 
-      color: #434455;
-      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-    .open-menu-btn {
-      display: none;
-    }
-    /* ---------------  Section 1 Advantages --------------- */
+  .open-menu-btn {
+    display: none;
+  }
+  /* ---------------  Section 1 Advantages --------------- */
 
-    .advantages-list {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 72px 24px;
-    }
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
 
-    .advantages-list-link {
-      width: calc((100% - 24px) / 2);
-    }
+  .advantages-list-link {
+    width: calc((100% - 24px) / 2);
+  }
 
-    /* ---------------  Section 2 Our Team --------------- */
-    .team-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 64px 24px;
-      justify-content: center;
-    }
+  /* ---------------  Section 2 Our Team --------------- */
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+  }
 
-    /* ---------------  Section 3 Our Portfolio --------------- */
+  /* ---------------  Section 3 Our Portfolio --------------- */
 
-    .portfolio-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 24px;
-      row-gap: 72px;
-    }
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 72px;
+  }
 
-    .portfolio-list-item {
-      width: calc((100% - 24px) / 2);
-      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    /* ---------------  FOOTER --------------- */
-    .footer-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 72px 24px;
-      padding-left: 108px;
-    }
+  .portfolio-list-item {
+    width: calc((100% - 24px) / 2);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  /* ---------------  FOOTER --------------- */
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    padding-left: 108px;
   }
 
   .footer-logo {
@@ -1245,6 +1248,9 @@ img {
     }
   }
 
+  .mob-menu {
+    display: none;
+  }
   .hero-title {
     font-weight: 700;
     font-size: 56px;
